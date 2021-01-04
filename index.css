@@ -4,6 +4,44 @@
     font-family: sans-serif;
 }
 
-h1 {
-    color: red;
+.container {
+    width: 400px;
+    height: 500px;
+    background: #000;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
 }
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar ul {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+}
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+.login {
+    color: #fff;
+    padding: 70px 30px;
+  
+}
+
+
+
